@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aaron Connor Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .expertise-carousel {
+      display: flex;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      gap: 1rem;
+      padding: 1rem 0;
+    }
+
+    .expertise-card {
+      flex: 0 0 auto;
+      scroll-snap-align: center;
+      background: #dee2e6;
+      border-radius: 10px;
+      padding: 2rem;
+      width: 250px;
+      text-align: center;
+      font-weight: bold;
+      position: relative;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .expertise-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .expertise-desc {
+      font-weight: normal;
+      font-size: 0.9rem;
+      margin-top: 0.5rem;
+      color: #495057;
+    }
+  </style>
+</head>
+<body style="background-image: url('images/background.jpg'); background-size: cover; background-position: center;">
+  <nav class="navbar">
+    <div class="logo">
+      <img src="images/AaronConnor.png" alt="Aaron Connor Logo" class="logo-img small" />
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+    </ul>
+  </nav>
+
+  <section class="section about" id="about">
+    <div class="intro-wrapper">
+      <div class="intro-box">
+        <div class="intro-grid">
+          <div class="intro-text left-align">
+            <h1>Hi, I'm</h1>
+            <h1 class="name-highlight">AARON<br />CONNOR</h1>
+            <p class="tagline">Front-End Developer • Digital Designer</p>
+          </div>
+          <div class="intro-photo">
+            <img src="images/LinkedIn.jpg" alt="Aaron Connor" class="profile-pic large" />
+            <h3>About Me</h3>
+            <p>I am currently pursuing my undergraduate degree in Software Engineering at the University of Leicester, where my passion for technology and creativity fuels both my academic and personal projects.</p>
+            <p>My primary focus is front-end development, where I aim to combine the art of design with the science of programming to craft seamless and user-friendly digital experiences.</p>
+            <a href="https://www.linkedin.com/in/aaronmconnor" target="_blank" class="linkedin-button">
+              View My LinkedIn
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="section expertise">
+    <div class="intro-wrapper">
+      <div class="intro-box">
+        <h3 style="text-align: center;">Areas of Expertise</h3>
+        <div class="expertise-grid static">
+          <div class="expertise-card">
+            <h4>UI/UX</h4>
+            <p>Crafting intuitive user experiences and sleek interface designs with a strong focus on accessibility and user flow.</p>
+          </div>
+          <div class="expertise-card">
+            <h4>Web Design and Development</h4>
+            <p>Designing responsive websites using modern front-end technologies to deliver seamless digital experiences.</p>
+          </div>
+          <div class="expertise-card">
+            <h4>Graphic Design</h4>
+            <p>Creating bold, visually engaging assets for digital and print. From branding to editorial layouts and promotional materials.</p>
+          </div>
+          <div class="expertise-card">
+            <h4>Digital Media</h4>
+            <p>Blending creativity and technology to produce dynamic content across video, motion graphics, and interactive platforms.</p>
+          </div>
+          <div class="expertise-card">
+            <h4>Photography</h4>
+            <p>Capturing compelling visuals through conceptual, portrait, and experimental photography to tell stories with depth.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
