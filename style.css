@@ -623,3 +623,72 @@ h2 {
   color: #343A40;
   margin-bottom: 1.5rem;
 }
+.project-acrylicinfographic-layout {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+.acrylic-column {
+  flex: 1 1 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.acrylic-column img {
+  max-width: 100%;
+  max-height: 450px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.acrylic-column img:hover {
+  transform: scale(1.02);
+}
+
+.centered-row {
+  flex-basis: 100%;
+  justify-content: center;
+  display: flex;
+  margin-top: 1rem;
+}
+.centered-image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.centered-image img {
+  max-width: 65%;
+  height: auto;
+  border-radius: 0.5rem;
+  transition: transform 0.3s ease;
+}
+
+/* Hover effect like your other project images */
+.centered-image img:hover {
+  transform: scale(1.02);
+}
+.project-linkedinbanners {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.project-linkedinbanners img {
+  width: 100%;
+  max-width: 700px;
+  object-fit: cover;
+  border-radius: 0;
+  transition: transform 0.3s ease;
+}
+
+.project-linkedinbanners img:hover {
+  transform: scale(1.02);
+}
