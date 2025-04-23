@@ -692,3 +692,11 @@ h2 {
 .project-linkedinbanners img:hover {
   transform: scale(1.02);
 }
+.filter-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #343A40;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
